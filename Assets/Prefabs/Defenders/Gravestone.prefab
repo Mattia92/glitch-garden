@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2740476221877611897}
   - component: {fileID: 2740476221877611899}
+  - component: {fileID: 5394271297709070412}
+  - component: {fileID: 2611602836046960808}
   - component: {fileID: 2740476221877611896}
   - component: {fileID: 2740476221877611898}
   m_Layer: 0
@@ -47,6 +49,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 100
+--- !u!114 &5394271297709070412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2740476221877611894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc512bba8edf4a0fb5175b40df8478c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2611602836046960808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2740476221877611894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4530c3d0ed8d4c2c86d44017b4f2e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 200
+  deathVFX: {fileID: 0}
 --- !u!61 &2740476221877611896
 BoxCollider2D:
   m_ObjectHideFlags: 0
