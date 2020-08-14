@@ -91,9 +91,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7355438286204457263}
-  - component: {fileID: 7355438286204457262}
   - component: {fileID: -1242265075696699083}
   - component: {fileID: 3558679451917612109}
+  - component: {fileID: 7355438286204457262}
   - component: {fileID: 2078202395}
   m_Layer: 0
   m_Name: Trophy
@@ -119,6 +119,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1242265075696699083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355438286204457260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce436d69a78449259e13c868cf9e807, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starCost: 50
+--- !u!114 &3558679451917612109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7355438286204457260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4530c3d0ed8d4c2c86d44017b4f2e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+  deathVFX: {fileID: 0}
 --- !u!95 &7355438286204457262
 Animator:
   serializedVersion: 3
@@ -138,33 +165,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-1242265075696699083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7355438286204457260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce436d69a78449259e13c868cf9e807, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  starCost: 100
---- !u!114 &3558679451917612109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7355438286204457260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4530c3d0ed8d4c2c86d44017b4f2e27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 30
-  deathVFX: {fileID: 0}
 --- !u!61 &2078202395
 BoxCollider2D:
   m_ObjectHideFlags: 0
